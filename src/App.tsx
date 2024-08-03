@@ -39,7 +39,7 @@ const App: React.FC = () => {
 
   return (
     <div className="flex flex-col items-center justify-between w-full max-h-screen h-[90dvh]">
-      <div className='bg-white text-black gap-3 px-5 py-2 flex items-center justify-center font-semibold rounded-full'><RiErrorWarningLine /> This To Do app has been made to practice with React and Typescriopt</div>
+      <div className='bg-white text-black gap-3 px-5 py-2 flex items-center justify-center font-semibold rounded-full'><RiErrorWarningLine /> This To Do app has been made to practice with React and Typescript</div>
       <div className="bg-white p-6 rounded-lg shadow-lg  max-w-2xl w-full">
         <h1 className="text-2xl font-bold mb-4 text-black w-full">Your Todo List</h1>
         <div className="flex mb-4">
@@ -61,7 +61,7 @@ const App: React.FC = () => {
           {todos.map(todo => (
             <li
               key={todo.id}
-              className={`flex justify-between text-black font-semibold items-center p-2 border-b border-gray-300 ${
+              className={`flex justify-between text-black cursor-pointer font-semibold items-center p-2 border-b border-gray-300 ${
                 todo.completed ? 'line-through text-black/50' : ''
               }`}
             >
