@@ -4,9 +4,9 @@
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-# AlphineJs Exercise
+# React and Typescript Exercise
 
-This To Do app has been made to practice with Alpine.Js and Tailwind CSS.
+This To Do app has been made to practice with React and Typescript. Also, I used Tailwind CSS in this app.
 
 ## Screenshots
 
